@@ -464,21 +464,18 @@ const questions = [
     div.className = "question";
 
     div.innerHTML = `
-      <h2 style="font-size:40px; font-weight:600">How Colours Affect Emotions and Behaviors </h2>
-      <p>Colours are more than just visual elements; they play a significant role in shaping our emotions and behaviors. Understanding colour psychology helps us navigate our environment and make informed choices about colour in various aspects of our lives. </p>
-        <p>Colours can evoke specific emotions and impact our behavior. For example, bright colours like red and yellow are often associated with high energy and strong emotions. Red can increase feelings of passion and urgency, making it a popular choice for stimulating action. Yellow, on the other hand, is linked to happiness and optimism, though too much can cause anxiety.</p>
-      <p>Cool colours such as blue and green are known for their calming effects. Blue often creates a sense of tranquility and trust, making it a common choice for professional settings. Green, the colour of nature, promotes balance and renewal, providing a soothing atmosphere. Purple combines the calm of blue and the energy of red, fostering creativity and
-sophistication.</p>
-      <p>Neutral colours like gray, beige, and white do not evoke strong emotions but provide stability and balance. They are often used as backgrounds to highlight other colours or create a calming environment.</p>
-      <p>Two main theories explain how we react to colours:
-Associative Learning: This theory suggests that we form emotional connections to colours based on * personal experiences and <b>cultural conditioning</b>.
-For example, red might evoke excitement because it is commonly used in signs that signal warnings or sales. Ecological Valence Theory: This theory posits that our preferences for certain colours have evolutionary roots. Early humans may have favored colours associated with survival, such as green for vegetation and blue for water.</p>
-        <p>Cultural context significantly shapes our colour perceptions. For instance, while white represents purity and new beginnings in many Western cultures, it symbolizes mourning in some Eastern cultures. These cultural differences must be considered, especially in marketing and design, to ensure that colours communicate the intended message.</p>
-        <p>To create a positive environment or enhance your mood, choose colours that align with your goals.
-For a relaxing space, opt for calming cool colours.
-To boost energy or motivation, incorporate warm colours like red and yellow. Balancing these with neutral tones can provide stability and focus.</p>
-        <p>Understanding and using colour psychology can improve your well-being and help you create spaces that reflect your personality and desired atmosphere.</p>
-        <br>
+      <h2 style="font-size:40px; font-weight:600">About music </h2>
+      <p>Did you know music tourism brings in over $3.5 billion annually? This stunning figure shows how much music influences our culture and identity.
+            Imagine exploring music's rich history by traveling to different places that have shaped it. Join us on a journey to discover musical heritage tourism. See how music can help you explore culture and find out the information about the development of music. Whether you're a music lover or a travel enthusiast, you will get a new perspective on how music helps us understand the world.<br/><br/>
+            Music is a universal language that transcends borders, connecting people and conveying emotions without words. By experiencing different cultures through their music, we gain a deeper understanding of their unique stories and values.</p>
+            <p>Visiting historical music sites is an exciting way to see how music impacts culture. These places allow us to dive into a location's musical heritage. From famous concert halls to museums about iconic musicians, each place tells a story about music's history. Exploring these destinations deepens our appreciation for music's role in culture. We discover musical traditions and instruments that are unique to each region. It's like traveling back in time to witness music's evolution.</p>
+          <p>Vienna, Austria, is famous for its classical music scene, with composers like Mozart and Beethoven.
+            In New Orleans, Louisiana, you can discover the birthplace of jazz and experience its vibrant music scene. For rock "n" roll fans, Liverpool, England, is where The Beatles began, with the Cavern Club as a must-visit spot. The Mississippi Delta in the U.S. is the home of blues, with legends like Robert Johnson and B. B. King.<br/><br/>
+            Music travel isn't just about visiting historical sites; it's also about experiencing music live. Going to festivals or local concerts connects us with others and offers unique experiences. These adventures ignite our passion for music and deepen our understanding of cultures, leaving us with <b>lasting</b> memories and a greater appreciation for the stories behind the sounds.<br/><br/>
+            These adventures open our eyes, fuel our love for music, and enrich our understanding of cultures.
+            They create unforgettable memories and inspire us to explore more. They tell us the stories behind the music.<br/><br/>
+            If you love music or just appreciate its beauty, traveling for music history is a great way to connect with the world. It deepens our understanding and appreciation for music's role in culture.</p>
+            <br> <br>
       <p style="font-weight: bold;">${q.question}</p>
       <div class="space-y-3">
         ${q.options.map((opt, i) => `
@@ -503,10 +500,10 @@ To boost energy or motivation, incorporate warm colours like red and yellow. Bal
       div.className = "question";
   
       div.innerHTML=`
-      <h2><b>${q.heading}</b></h2>
+      <h2><b>Fascinating people's stories</b></h2>
       <br>
       <p>${q.text}</p>
-      <p style="font-weight: bold;">${q.questionText} <b>Which festival ___?</b></p>
+      <p style="font-weight: bold;">${q.questionText}</p>
       <div class="space-y-3">
           ${q.options.map((opt, i) => `
             <label for="q${qNumber}a${i+1}" class="block">
@@ -529,7 +526,7 @@ To boost energy or motivation, incorporate warm colours like red and yellow. Bal
       div.className = "question";
   
       div.innerHTML=`
-      <h2 style="text-align: center; font-size:40px; font-weight:600">Expressing Yourself Through Fashion</h2>
+      <h2 style="text-align: center; font-size:40px; font-weight:600">Olympic Games</h2>
       <p>${q.text}</p>
       <p style="font-weight: bold;">${q.questionText}</p>
       <div class="space-y-3">
